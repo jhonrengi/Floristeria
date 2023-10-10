@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a1212cd-7d01-40ca-96ce-10154bb66529" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/floristeriamundoflor/questions/ValidationName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/floristeriamundoflor/ui/LoveValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/floristeriamundoflor/tasks/BirthdayTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/floristeriamundoflor/tasks/BirthdayTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/floristeriamundoflor/tasks/LoveTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/floristeriamundoflor/tasks/LoveTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/floristeriamundoflor/ui/BirthdayUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/floristeriamundoflor/ui/BirthdayUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/floristeriamundoflor/ui/LoveUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/floristeriamundoflor/ui/LoveUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/floristeriamundoflor/questions/ValidationName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/floristeriamundoflor/questions/ValidationName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/floristeriamundoflor/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/floristeriamundoflor/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/floristeriamundoflor/stepDefinitions/BirthdayStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/floristeriamundoflor/stepDefinitions/BirthdayStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/floristeriamundoflor/stepDefinitions/LoveStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/floristeriamundoflor/stepDefinitions/LoveStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/birthday.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/birthday.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/love.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/love.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -7,7 +7,7 @@ import net.serenitybdd.screenplay.Question;
 public class ValidationName implements Question {
     @Override
     public Boolean answeredBy(Actor actor) {
-        return LoveValidation.NAME_PRODUCT.resolveFor(actor).isClickable();
+        return LoveValidation.NAME_PRODUCT.resolveFor(actor).isVisible();
     }
 
     public static Question from(){

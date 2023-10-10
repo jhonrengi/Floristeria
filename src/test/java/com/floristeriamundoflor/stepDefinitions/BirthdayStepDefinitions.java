@@ -1,5 +1,6 @@
 package com.floristeriamundoflor.stepDefinitions;
 
+import com.floristeriamundoflor.questions.ValidationName;
 import com.floristeriamundoflor.tasks.BirthdayTask;
 import com.floristeriamundoflor.tasks.LoveTask;
 import io.cucumber.java.Before;
@@ -8,7 +9,9 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnlineCast;
+import org.hamcrest.Matchers;
 
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.*;
 
 public class BirthdayStepDefinitions {
@@ -32,6 +35,11 @@ public class BirthdayStepDefinitions {
     }
     @Then("the user can watch the produts and delete")
     public void theUserCanWatchTheProdutsAndDelete() {
+        theActorInTheSpotlight().should(
+                seeThat(
+                        ValidationName.from(), Matchers.equalTo(false)
+                )
 
+        );
     }
 }

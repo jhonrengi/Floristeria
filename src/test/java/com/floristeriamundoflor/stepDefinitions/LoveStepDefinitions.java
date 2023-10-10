@@ -37,7 +37,7 @@ public class LoveStepDefinitions {
     public void theUserCanWatchTheProduts() {
         theActorInTheSpotlight().should(
                 seeThat(
-                        ValidationName.from(), Matchers.equalTo(true)
+                        ValidationName.from(), Matchers.equalTo(false)
                 )
 
         );

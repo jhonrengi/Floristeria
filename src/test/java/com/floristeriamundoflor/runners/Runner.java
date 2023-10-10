@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/birthday.feature",
+        features = "src/test/resources/features/love.feature",
         glue = "com.floristeriamundoflor.stepDefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
