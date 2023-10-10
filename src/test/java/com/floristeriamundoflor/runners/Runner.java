@@ -1,2 +1,14 @@
-package com.floristeriamundoflor.runners;public class Runner {
+package com.floristeriamundoflor.runners;
+
+import io.cucumber.junit.CucumberOptions;
+import net.serenitybdd.cucumber.CucumberWithSerenity;
+import org.junit.runner.RunWith;
+
+@RunWith(CucumberWithSerenity.class)
+@CucumberOptions(
+        features = "src/test/resources/features/birthday.feature",
+        glue = "com.floristeriamundoflor.stepDefinitions",
+        snippets = CucumberOptions.SnippetType.CAMELCASE
+)
+public class Runner {
 }
